@@ -1,0 +1,15 @@
+{
+    "servers": {
+        "greeting-mcp": {
+            "type": "stdio",
+            "command": "python",
+            "args": ["${workspaceFolder}/src/main.py"],
+            "dev": {
+                "watch": "src/**/*.py",
+                "debug": {
+                    "type": "debugpy"
+                }
+            }
+        }
+    },
+}

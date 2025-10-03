@@ -1,0 +1,18 @@
+[project]
+name = "greeting-mcp-server"
+version = "0.1.0"
+description = "A basic MCP server with a greeting tool"
+authors = [
+    {name = "Developer"}
+]
+dependencies = [
+    "fastmcp>=0.2.0",
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
